@@ -27,7 +27,7 @@ or download the css on github and include in your project.
 .tup-ru {   text-underline-position: right under; }
 .tup-i {    text-underline-position: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .tup-auto-ns { text-underline-position: auto; }
   .tup-u-ns    { text-underline-position: under; }
   .tup-l-ns    { text-underline-position: left; }
@@ -37,7 +37,7 @@ or download the css on github and include in your project.
   .tup-i-ns    { text-underline-position: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .tup-auto-m { text-underline-position: auto; }
   .tup-u-m    { text-underline-position: under; }
   .tup-l-m    { text-underline-position: left; }
@@ -47,7 +47,7 @@ or download the css on github and include in your project.
   .tup-i-m    { text-underline-position: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .tup-auto-l { text-underline-position: auto; }
   .tup-u-l    { text-underline-position: under; }
   .tup-l-l    { text-underline-position: left; }
