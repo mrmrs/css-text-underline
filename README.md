@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-text-underline)
 ## File Size
 
 1.6K text-underline.css
-1.3K text-underline.min.css
+1.3K text-underline.min.css 
+237B minified and gzipped
 
 ## The Code
 ```
