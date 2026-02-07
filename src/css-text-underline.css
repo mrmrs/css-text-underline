@@ -11,13 +11,13 @@
 .tup-i {    text-underline-position: inherit; }
 
 @media screen and (min-width: 48em) {
-  .tup-auto-ns { text-underline-position: auto; }
-  .tup-u-ns    { text-underline-position: under; }
-  .tup-l-ns    { text-underline-position: left; }
-  .tup-r-ns    { text-underline-position: right; }
-  .tup-ul-ns   { text-underline-position: under left; }
-  .tup-ru-ns   { text-underline-position: right under; }
-  .tup-i-ns    { text-underline-position: inherit; }
+  .tup-auto-s { text-underline-position: auto; }
+  .tup-u-s    { text-underline-position: under; }
+  .tup-l-s    { text-underline-position: left; }
+  .tup-r-s    { text-underline-position: right; }
+  .tup-ul-s   { text-underline-position: under left; }
+  .tup-ru-s   { text-underline-position: right under; }
+  .tup-i-s    { text-underline-position: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
