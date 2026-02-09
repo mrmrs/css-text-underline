@@ -10,7 +10,7 @@
 .tup-ru {   text-underline-position: right under; }
 .tup-i {    text-underline-position: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .tup-auto-s { text-underline-position: auto; }
   .tup-u-s    { text-underline-position: under; }
   .tup-l-s    { text-underline-position: left; }
@@ -20,7 +20,7 @@
   .tup-i-s    { text-underline-position: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .tup-auto-m { text-underline-position: auto; }
   .tup-u-m    { text-underline-position: under; }
   .tup-l-m    { text-underline-position: left; }
@@ -30,7 +30,7 @@
   .tup-i-m    { text-underline-position: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .tup-auto-l { text-underline-position: auto; }
   .tup-u-l    { text-underline-position: under; }
   .tup-l-l    { text-underline-position: left; }
