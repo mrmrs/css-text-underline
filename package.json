@@ -1,38 +1,44 @@
 {
   "name": "css-text-underline",
-  "style": "text-underline.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-text-underline",
-  "description": "Css module of single purpose classes for text underline",
+  "version": "2.0.0",
+  "description": "Functional CSS for text-underline",
+  "style": "dist/text-underline.css",
+  "main": "dist/text-underline.css",
+  "exports": {
+    ".": "./dist/text-underline.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "text-underline"
+    "text-underline",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-text-underline": {
+  "homepage": "https://github.com/mrmrs/css-text-underline",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-text-underline.git"
+    "url": "https://github.com/mrmrs/css-text-underline.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-text-underline/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-text-underline/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
