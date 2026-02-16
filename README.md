@@ -1,113 +1,96 @@
-# css-text-underline 0.0.6
+# css-text-underline
 
-Css module of single purpose classes for text underline
+Functional CSS for text-underline
 
-#### Stats
+## Filesize
 
-278 | 28 | 28
----|---|---
-bytes | selectors | declarations
+| File | Size |
+|------|------|
+| `dist/text-underline.css` | 1633 bytes |
+| `dist/text-underline.min.css` | 1241 bytes (232 Gzipped) |
 
-## Installation
+## Install
 
-#### With [npm](https://npmjs.com)
-
-```
-npm install --save-dev css-text-underline
-```
-
-#### With Git
-
-```
-git clone https://github.com/tachyons-css/css-text-underline
+```sh
+npm install css-text-underline
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
-
-Import the css module
+### Import
 
 ```css
 @import "css-text-underline";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
-
-```sh
-$ npm i -g tachyons-cli
-$ tachyons-cli path/to/css-file.css > dist/t.css
-```
-
-#### Using the CSS
-
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
-You can either cut and paste that css or link to it directly in your html.
+### CDN
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/css-text-underline">
+<link rel="stylesheet" href="https://unpkg.com/css-text-underline/dist/text-underline.min.css">
 ```
 
-#### Development
+### Direct
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
-
-## The CSS
-
-```css
-/*
-   TEXT UNDERLINE
-*/
-.tup-auto { text-underline-position: auto; }
-.tup-u { text-underline-position: under; }
-.tup-l { text-underline-position: left; }
-.tup-r { text-underline-position: right; }
-.tup-ul { text-underline-position: under left; }
-.tup-ru { text-underline-position: right under; }
-.tup-i { text-underline-position: inherit; }
-@media screen and (min-width: 48em) {
- .tup-auto-ns { text-underline-position: auto; }
- .tup-u-ns { text-underline-position: under; }
- .tup-l-ns { text-underline-position: left; }
- .tup-r-ns { text-underline-position: right; }
- .tup-ul-ns { text-underline-position: under left; }
- .tup-ru-ns { text-underline-position: right under; }
- .tup-i-ns { text-underline-position: inherit; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .tup-auto-m { text-underline-position: auto; }
- .tup-u-m { text-underline-position: under; }
- .tup-l-m { text-underline-position: left; }
- .tup-r-m { text-underline-position: right; }
- .tup-ul-m { text-underline-position: under left; }
- .tup-ru-m { text-underline-position: right under; }
- .tup-i-m { text-underline-position: inherit; }
-}
-@media screen and (min-width: 64em) {
- .tup-auto-l { text-underline-position: auto; }
- .tup-u-l { text-underline-position: under; }
- .tup-l-l { text-underline-position: left; }
- .tup-r-l { text-underline-position: right; }
- .tup-ul-l { text-underline-position: under left; }
- .tup-ru-l { text-underline-position: right under; }
- .tup-i-l { text-underline-position: inherit; }
-}
+```html
+<link rel="stylesheet" href="path/to/css-text-underline/dist/text-underline.min.css">
 ```
 
-## Contributing
+## Classes
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+| Class   | Value                    |
+|---------|--------------------------|
+| `.tup-auto` | `text-underline-position: auto;` |
+| `.tup-u` | `text-underline-position: under;` |
+| `.tup-l` | `text-underline-position: left;` |
+| `.tup-r` | `text-underline-position: right;` |
+| `.tup-ul` | `text-underline-position: under left;` |
+| `.tup-ru` | `text-underline-position: right under;` |
+| `.tup-i` | `text-underline-position: inherit;` |
+| `.tup-auto-s` | `text-underline-position: auto;` |
+| `.tup-u-s` | `text-underline-position: under;` |
+| `.tup-l-s` | `text-underline-position: left;` |
+| `.tup-r-s` | `text-underline-position: right;` |
+| `.tup-ul-s` | `text-underline-position: under left;` |
+| `.tup-ru-s` | `text-underline-position: right under;` |
+| `.tup-i-s` | `text-underline-position: inherit;` |
+| `.tup-auto-m` | `text-underline-position: auto;` |
+| `.tup-u-m` | `text-underline-position: under;` |
+| `.tup-l-m` | `text-underline-position: left;` |
+| `.tup-r-m` | `text-underline-position: right;` |
+| `.tup-ul-m` | `text-underline-position: under left;` |
+| `.tup-ru-m` | `text-underline-position: right under;` |
+| `.tup-i-m` | `text-underline-position: inherit;` |
+| `.tup-auto-l` | `text-underline-position: auto;` |
+| `.tup-u-l` | `text-underline-position: under;` |
+| `.tup-l-l` | `text-underline-position: left;` |
+| `.tup-r-l` | `text-underline-position: right;` |
+| `.tup-ul-l` | `text-underline-position: under left;` |
+| `.tup-ru-l` | `text-underline-position: right under;` |
+| `.tup-i-l` | `text-underline-position: inherit;` |
 
-## Authors
+### Responsive
 
-* [mrmrs](http://mrmrs.io)
-* [johno](http://johnotander.com)
+Responsive variants are available for each class with the following suffixes:
+
+| Suffix | Media Query              |
+|--------|--------------------------|
+| `-s`   | `min-width: 32em`        |
+| `-m`   | `min-width: 48em`        |
+| `-l`   | `min-width: 96em`        |
+
+Example: `.tup-auto-m` applies the property at the medium breakpoint and above.
+
+## Building
+
+```sh
+npm run build
+```
+
+Processes `src/text-underline.css` with [Lightning CSS](https://lightningcss.dev) and outputs to `dist/`.
+
+- `dist/text-underline.css` — formatted
+- `dist/text-underline.min.css` — minified
 
 ## License
 
-ISC
+MIT
